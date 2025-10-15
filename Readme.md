@@ -88,7 +88,7 @@ It supports monitoring multiple resource types, runs probes from different regio
 | Component         | Technology / Library                    |
 |-------------------|-----------------------------------------|
 | Language          | Go                                       |
-| API Framework     | Chi / Fiber / Gin (REST API)             |
+| API Framework     | Gin (REST API)             |
 | Messaging Bus     | NATS JetStream                           |
 | Database          | PostgreSQL + TimescaleDB (time-series)   |
 | Migrations        | golang-migrate                           |
@@ -113,9 +113,9 @@ It supports monitoring multiple resource types, runs probes from different regio
 
 | Component      | Technology                |
 |----------------|---------------------------|
-| Web Dashboard  | Next.js (React) or HTMX   |
+| Web Dashboard  | HTMX + Alpine.js          |
 | UI Styling     | TailwindCSS (if React)    |
-| Status Pages   | Server-rendered (Next.js / HTMX) |
+| Status Pages   | Server-rendered (HTMX)    |
 
 ---
 
